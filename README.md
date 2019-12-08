@@ -37,7 +37,7 @@ entregado el "convertidor" correspondiente.
 Finalmente, se adjunta el diagrama de el patrón de manera genérica recuperado de 
 [aquí](https://refactoring.guru/design-patterns/visitor). Este se ocupó de día al igual que 
 el del vídeo recomendado por el profesor.
-![][VisitorPatternDiagram]
+![][VisitorPatternDiagram.png]
 
 ## Estructura del Código
 
