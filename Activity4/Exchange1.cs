@@ -6,8 +6,8 @@ namespace Activity4
     public class Exchange1 : CurrencyExchange
     {
 
-        public override Currency Exchange(Currency otherName, IConvertor currencyConvertor){
-            return currencyConvertor.ConvertForExchange1(otherName);
+        public override Currency Exchange(Currency from, IConvertor currencyConvertor){
+            return currencyConvertor.ConvertForExchange1(from);
         }
 
         // public override Currency Exchange(CLPCurrency from, string to)
