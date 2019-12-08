@@ -45,7 +45,8 @@ En el archivo `ICurrencyConvertor.cs` está la **interfaz** `IConvertor`, y en e
 
 El archivo `CurrencyExchange.cs`, `Exchange1.cs` y `Exchange2.cs` se modificó según lo descrito inicialmente.
 
-Adicionalmente, se agregó un archivo `ExchangerApp.cs` que implementa una App de Terminal que permite ejecutar las distintas funcionalidades y testear el funcionamiento correcto del patrón _Visitor_.
+Adicionalmente, se agregó un archivo `ExchangerApp.cs` que implementa una App de Terminal que permite ejecutar las distintas funcionalidades y testear el funcionamiento correcto del patrón _Visitor_. Es importante que esta pequeña 
+simulación solo permite números como _input_ cualquier otro valor hará que se caiga la app.
 
 ## Conclusiones
 
