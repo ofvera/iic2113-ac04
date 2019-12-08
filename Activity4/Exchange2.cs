@@ -3,9 +3,8 @@ namespace Activity4
     // Esto no compila :(
     public class Exchange2 : CurrencyExchange
     {
-        public override Currency Exchange(Currency from, IConvertor currencyConvertor)
-        {
-            return new USDCurrency(10);
+        public override Currency Exchange(Currency from, IConvertor currencyConvertor){
+            return currencyConvertor.ConvertForExchange2(from);
         }
         // public override Currency Exchange(CLPCurrency from, string to)
         // {
