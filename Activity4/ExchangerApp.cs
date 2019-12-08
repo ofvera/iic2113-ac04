@@ -32,8 +32,8 @@ namespace Activity4
             while (!End)
             {
                 Console.WriteLine("Menu\n1) View Exchange Rates\n2) Exchange Amount\n[Any Other Key] Quit");
-                int menu = Convert.ToInt32(Console.ReadLine());
-                if (menu == 1)
+                string menu = Console.ReadLine();
+                if (menu == "1")
                 {
                     Console.WriteLine("\nExchange Rates\n1) Exchange Rates 1\n2) Exchange Rates 2\n[Any Other Key] Back");
                     string rate = Console.ReadLine();
@@ -46,7 +46,7 @@ namespace Activity4
                         Console.WriteLine(getRates(exchange2));
                     }
                 }
-                else if (menu == 2)
+                else if (menu == "2")
                 {
                     Console.WriteLine("\nChoose Exchange Rate\n1) Rate 1 \n2) Rate 2");
                     string rate = Console.ReadLine();
