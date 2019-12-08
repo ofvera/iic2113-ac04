@@ -14,7 +14,7 @@ En la primera imagen, se muestra un diagrama UML de estas clases.
     2. Se modificó el método `Exchange(Currency from, String to)`, cambiando el segundo
     por un _Visitor_ (`IConvertor convertorCurrency`).
 
-![][Activity4/CurrencyExchangeModeling.jpeg]
+![alt text]["Activity4/CurrencyExchangeModeling.jpeg"]
 
 En la segunda image, se muestra el diagrama UML para el modelamiento de un _Visitor_. Para 
 esto se creó una interfaz con dos métodos: `ConvertForExchange1` y `ConvertForExchange2` de esta 
@@ -32,12 +32,12 @@ Por lo que, se implemento los siguientes "convertidores" (_Visitors_):
 Con estos visitors, se puede modelar con un solo método `Exchange` en las sub clases `Exchange_i` 
 entregado el "convertidor" correspondiente.
 
-![][Activity4/IConvertorModeling.jpeg]
+![]["Activity4/IConvertorModeling.jpeg"]
 
 Finalmente, se adjunta el diagrama de el patrón de manera genérica recuperado de 
 [aquí](https://refactoring.guru/design-patterns/visitor). Este se ocupó de día al igual que 
 el del vídeo recomendado por el profesor.
-![][Activity4/VisitorPatternDiagram.png]
+![]["Activity4/VisitorPatternDiagram.png"]
 
 ## Estructura del Código
 
