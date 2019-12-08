@@ -14,7 +14,7 @@ En la primera imagen, se muestra un diagrama UML de estas clases.
 2. Se modificó el método `Exchange(Currency from, String to)`, cambiando el segundo
     por un _Visitor_ (`IConvertor convertorCurrency`).
 
-![alt text](Activity4/CurrencyExchangeModeling.jpeg)
+![alt text](Activity4/CurrencyExchangeModeling.png)
 
 En la segunda image, se muestra el diagrama UML para el modelamiento de un _Visitor_. Para 
 esto se creó una interfaz con dos métodos: `ConvertForExchange1` y `ConvertForExchange2` de esta 
